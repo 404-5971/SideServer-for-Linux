@@ -1,0 +1,13 @@
+[project]
+name = "sideserver-for-linux"
+version = "0.1.0"
+description = "SideServer of the Linux persuasion (WIP)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pygobject>=3.54.5",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = []
